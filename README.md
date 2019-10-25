@@ -37,6 +37,9 @@ write file and exit vim
 
 ### subscribing to a topic (mqtt/test)
     mosquitto_sub -h localhost -d -u meraki -P meraki123# -t mqtt/test
+
+### subscribing to a topic using a wildcard (mqtt/#)
+    mosquitto_sub -h localhost -d -u meraki -P meraki123# -t mqtt/#
     
 ### publish message to the topic (mqtt/test) using a second terminal
     mosquitto_pub -h localhost -t mqtt/test -m "hello world"
