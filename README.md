@@ -20,7 +20,7 @@ Copy and paste the following:
     
     log_dest file /var/log/mosquitto/mosquitto.log
 
-    allow_anonymous false
+    allow_anonymous false                      !true if your mqtt client sends without credentials
     password_file /etc/mosquitto/pwfile
     
     listener 1883
