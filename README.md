@@ -1,4 +1,4 @@
-# Raspberry MQTT Broker Install Guide
+# Raspberry MQTT Broker Installation and Config Guide
 
 ## update Raspberry
     sudo apt-get update
